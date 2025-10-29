@@ -1,4 +1,33 @@
-used for record the new recordings 
+Voice-Based Attendance System using Machine Learning 🎙️
+📘 Overview
+
+The Voice-Based Attendance System is an intelligent solution that automates student or employee attendance marking using voice recognition.
+The system leverages Machine Learning (ML) techniques for speaker identification, ensuring a contactless, secure, and efficient attendance process.
+
+This project is part of the MCA (SY) curriculum under the guidance of Dr. V. C. Bagal, and developed by Dhiraj Ramse as a practical implementation of AI and ML in real-world systems.used for record the new recordings 
+
+voice_attendance/
+│
+├── dataset/                         # Voice samples organized by student name
+│   ├── Dhiraj/
+│   │   ├── Dhiraj_1.wav
+│   │   ├── Dhiraj_2.wav
+│   └── NewStudent/
+│       ├── NewStudent_1.wav
+│
+├── models/                          # Trained machine learning models
+│   └── voice_model.pkl
+│
+├── attendance/                      # Auto-generated attendance records (CSV, XLSX)
+│
+├── gui.py                           # Main GUI application
+├── train_model.py                   # Model training script
+├── recognize_and_mark_attendance.py # Voice recognition & attendance marking
+├── record_voice_samples.py          # Script to record samples for each student
+├── requirements.txt                 # Dependency list
+└── README.md                        # Project documentation
+cmd to run the project
+
 {
     python record_voice_samples.py
 }
